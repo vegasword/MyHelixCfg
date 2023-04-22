@@ -1,0 +1,38 @@
+# vegasword config file
+theme = "catppuccin_macchiato"
+[editor]
+line-number = "relative"
+mouse = false
+cursorline = true
+[editor.statusline]
+left = ["mode", "position", "selections"]
+center = ["diagnostics", "file-name"]
+right = ["spinner", "file-encoding", "file-line-ending"]
+separator = "|"
+[editor.auto-pairs]
+'{' = '}'
+'[' = ']'
+'(' = ')'
+[keys.normal]
+C-s = ":w"
+C-m = ":sh build"
+C-r = ":sh run"
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+[keys.insert]
+"C-i" = "normal_mode"
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+[keys.select]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
