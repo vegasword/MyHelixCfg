@@ -120,7 +120,7 @@
 "diff.delta" = "orange"
 "diff.minus" = "red"
 
-"ui.background" = {bg = "#161616"}
+# "ui.background" = {bg = "#161616"}
 "ui.background.separator" = "grey0"
 "ui.cursor" = { fg = "#40FF40", bg = "fg0" }
 "ui.cursor.match" = { fg = "#FF0000", bg = "#007733" }
