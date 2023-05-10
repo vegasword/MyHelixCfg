@@ -1,5 +1,5 @@
 # vegasword config file
-theme = "catppuccin_macchiato"
+theme = "handmade"
 [editor]
 line-number = "relative"
 mouse = false
