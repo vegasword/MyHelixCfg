@@ -1,9 +1,11 @@
-# vegasword config file
+# vegasword's config file
 theme = "handmade"
 [editor]
 line-number = "relative"
 mouse = false
 cursorline = true
+completion-trigger-len = 1
+rulers = [80]
 [editor.statusline]
 left = ["mode", "position", "selections"]
 center = ["diagnostics", "file-name"]
