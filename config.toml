@@ -17,7 +17,8 @@ separator = "|"
 '(' = ')'
 [keys.normal]
 C-s = ":w"
-C-m = ":sh build"
+C-m = ":sh build debug"
+C-M = ":sh build"
 C-r = ":sh run"
 C-p = ":sh clean"
 up = "no_op"
